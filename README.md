@@ -1,2 +1,3 @@
-# hello-world
-just for learining
+from selenium import webdriver
+driver = webdriver.Chrome()
+driver.get("http://www.baidu.com")
